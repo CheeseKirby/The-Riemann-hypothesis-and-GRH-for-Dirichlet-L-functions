@@ -20,31 +20,27 @@
 
 ## 二、原文、作者与原始地址
 
-**本书（原书）**：*The Riemann hypothesis and GRH for Dirichlet L-functions — A readable account of the Lean proof in Levent Alpöge's archive*（版本标识 rh-lean-roadmap，2026 年 11 月）。
+本仓库涉及**两份不同的材料**，来源与作者必须区分清楚：
 
-| | |
-| --- | --- |
-| **原书仓库（原始地址）** | <https://github.com/rh-lean-roadmap/rh-lean-roadmap> |
-| 原书主页 | <https://rh-lean-roadmap.github.io/rh-lean-roadmap/> |
-| 原书归档版本 | Zenodo v44：<https://doi.org/10.5281/zenodo.24562451> |
-| 原书 PDF（上游） | 仓库内 `docs/book.pdf`（当前上游版本 1582 页） |
-| 原书许可 | **CC BY 4.0**（Attribution 4.0 International） |
+### （1）证明的原始发布（作者本人）——Levent Alpöge
 
-**证明的原始发布地址**：
+- **证明的原始发布地址**：**<https://alpo.ge/remark.pdf>**（4 页，2026 年 11 月 20 日）。
+- **该网址是作者本人的发布页，不是转载**：Levent Alpöge 在哈佛的官方主页 `https://people.math.harvard.edu/~alpoge` 会**自动跳转**到 <https://alpo.ge>（其个人网站，内含其 CV、论文列表与 Anthropic/Harvard 任职信息）；Lean FRO 与 Mathlib Initiative 的官方联合声明中，"released"一词的链接即指向 <https://alpo.ge/remark.pdf>；Scientific American 报道亦称 Alpöge 的声明"posted on his website"。
+- **Lean 4 存档（形式化证明本体）**：<https://alpo.ge/lean.tar.gz.part01> … `part14`（175,187 个文件、约 1,740 万行；校验说明见原书仓库）。remark 中自述"I believe I have, working with Claude, discovered a proof of the Riemann hypothesis"，即该证明是他**与 Claude 合作发现**的。
+- **正式论文状态（截至 2026-11-27）**：未检索到该 RH/GRH 证明的 arXiv 预印本或期刊论文；目前作者发布的正式材料是上述 4 页 remark 与 Lean 存档（作者在 remark 中表示将另行正式写出论证）。请注意：arXiv:2608.13637（Alpöge & Furman，2026-08）与 Anthropic 研究页 <https://www.anthropic.com/research/riemann-zeta>（2026-08 发布）是**更早的部分结果**（"至少三分之二的零点单纯且位于临界线上"），**不是** 2026-11-20 的黎曼假设证明本身。
+- **独立验证**：Drew Sutherland（MIT）的验证报告 <https://math.mit.edu/~drew/grh/>；Michael Rubinstein（Waterloo）的复核页 <https://mrubinst.github.io/grh-lean-verification/>；Lean FRO 与 Mathlib Initiative 联合认证（2026-11-21）<https://leanprover-community.github.io/blog/posts/riemann-hypothesis/>。
+- **媒体报道（供参考）**：Nature，<https://doi.org/10.1038/d41586-026-03812-7>；Scientific American，<https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/>。
 
-- **Levent Alpöge 本人发布的证明说明（remark）**：<https://alpo.ge/remark.pdf>（2026 年 11 月 20 日；Levent Alpöge，Anthropic, PBC / Harvard Society of Fellows。文中自述"I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis"，即该证明是他**与 Claude 合作发现**的，并附论证时间线。）
-- **Lean 4 存档（形式化证明）**：<https://alpo.ge/lean.tar.gz.part01> … `part14`（175,187 个文件、约 1,740 万行；下载说明见原书仓库 README）。
-- **Lean FRO 与 Mathlib Initiative 联合认证（2026-11-21）**：<https://leanprover-community.github.io/blog/posts/riemann-hypothesis/>
-- **独立验证报告（Drew Sutherland）**：<https://math.mit.edu/~drew/grh/>
+> 若在网上看到以 "ripemann-hypothesis-lean" 等命名的 GitHub 镜像仓库，那些是第三方镜像，均标注来源为 `alpo.ge`；原始发布地址是上面的 `alpo.ge`。
 
-**作者与来源说明**：
+### （2）本译稿翻译的原书（独立阐释书，不是 Alpöge 的论文）
 
-- **数学证明与 Lean 存档**：Levent Alpöge 的存档（原书仓库："The proof is Alpöge's archive"）。据 Alpöge 的 remark，该证明由他与 Claude 合作发现。
-- **原书正文与代码**：由若干 AI 模型（包括 Anthropic 的 **Claude**）撰写并交叉校对；一位独立作者（非本领域专家、原书未具名）设定方向并作出取舍（据原书仓库 README "About this repository"）。原书正文亦自述"written by several AI models, including Claude"。
-- **独立性声明**：Alpöge 在 Anthropic 工作；原书仓库及其说明独立于他本人与 Anthropic；数学内容以 Lean 存档为准。
-- 上游仓库还提供 21 页**中文导读**（`docs/reading-guide-zh.pdf`），与本译稿（全书翻译）是两份不同材料。
+- **原书**：*The Riemann hypothesis and GRH for Dirichlet L-functions — A readable account of the Lean proof in Levent Alpöge's archive*（版本标识 rh-lean-roadmap，November 2026，本译稿依据 2026-11-25 生成、1545 页的 PDF）。
+- **原书仓库（本书的原始地址）**：<https://github.com/rh-lean-roadmap/rh-lean-roadmap>；主页 <https://rh-lean-roadmap.github.io/rh-lean-roadmap/>；归档版本 Zenodo v44：<https://doi.org/10.5281/zenodo.24562451>。原书以 **CC BY 4.0** 发布。
+- **该仓库不是 Alpöge 本人发布**：其 README 明确写道 "The proof is Alpöge's archive; this repository explains its structure... An independent author, not a specialist in this area, set the direction and made the calls; the text and code were written and cross-checked by several AI models, including Anthropic's Claude. Alpöge works at Anthropic; this repository is independent of him and of Anthropic."
+- 因此：**原书的数学内容来自 Alpöge 的存档**，但**原书文本与代码由若干 AI 模型（含 Claude）与一位未具名的独立作者写成**，属于独立阐释项目；它是本译稿的翻译对象，而非黎曼假设证明的原始发布。
 
-> **版本说明**：本译稿依据的是 **2026-11-25 生成、共 1545 页**的原书 PDF（版本标识 rh-lean-roadmap，November 2026）；上游仓库当前 `docs/book.pdf` 为 1582 页（Zenodo v44），两者可能存在少量差异。如遇不一致，以原书与 Lean 存档为准。
+> **版本说明**：本译稿依据 **1545 页**版本（2026-11-25）；上游仓库当前 `docs/book.pdf` 为 **1582 页**（Zenodo v44），两者可能存在少量差异。如遇不一致，以原书与 Lean 存档为准。
 
 ## 三、原书与翻译规模
 

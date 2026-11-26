@@ -18,13 +18,22 @@
 
 ## 三、原文、作者与原始地址
 
-- **原书**：*The Riemann hypothesis and GRH for Dirichlet L-functions — A readable account of the Lean proof in Levent Alpöge's archive*（版本标识 rh-lean-roadmap，2026 年 11 月，本译稿依据 2026-11-25 生成、1545 页的 PDF）。
-- **原书仓库（原始地址）**：<https://github.com/rh-lean-roadmap/rh-lean-roadmap>；主页 <https://rh-lean-roadmap.github.io/rh-lean-roadmap/>；归档版本 Zenodo v44：<https://doi.org/10.5281/zenodo.24562451>。原书以 **CC BY 4.0** 发布，本译稿作为衍生作品亦以 CC BY 4.0 发布（署名见 `NOTICE.md`）。
-- **证明的原始发布**：Levent Alpöge（Anthropic, PBC；Harvard Society of Fellows）于 2026 年 11 月 20 日发布 `remark`：<https://alpo.ge/remark.pdf>；文中自述该证明是其**与 Claude 合作**发现的，并附论证时间线。
-- **Lean 4 存档**：<https://alpo.ge/lean.tar.gz.part01> … `part14`（175,187 个文件、约 1,740 万行）。
-- **社区认证**（Lean FRO 与 Mathlib Initiative，2026-11-21）：<https://leanprover-community.github.io/blog/posts/riemann-hypothesis/>；**独立验证报告**（Drew Sutherland）：<https://math.mit.edu/~drew/grh/>。
-- **作者与来源**：数学证明与 Lean 存档为 Levent Alpöge 的存档；原书正文与代码由若干 AI 模型（包括 Anthropic 的 Claude）撰写并交叉校对，一位独立作者（非本领域专家、原书未具名）设定方向并作取舍（据原书仓库 README "About this repository"）。上游仓库另有 21 页中文导读（`docs/reading-guide-zh.pdf`），与本译稿不同。
-- **版本差异提示**：上游仓库当前 `docs/book.pdf` 为 1582 页（Zenodo v44），本译稿依据的 1545 页版本与之可能存在少量差异；如遇不一致，以原书与 Lean 存档为准。
+本译稿涉及两份材料，来源须区分：
+
+**（1）证明的原始发布（作者本人）**
+
+- 原始发布地址：**<https://alpo.ge/remark.pdf>**（Levent Alpöge，4 页，2026-11-20；自述与 Claude 合作发现该证明）。
+- 该地址为作者本人网站而非转载：其哈佛官方主页 `https://people.math.harvard.edu/~alpoge` 跳转至 <https://alpo.ge>；Lean FRO 与 Mathlib Initiative 官方联合声明中 "released" 的链接即指向 remark.pdf；Scientific American 报道称该声明 "posted on his website"。
+- Lean 4 存档：<https://alpo.ge/lean.tar.gz.part01> … `part14`（175,187 个文件、约 1,740 万行）。
+- 独立验证：<https://math.mit.edu/~drew/grh/>（Sutherland）、<https://mrubinst.github.io/grh-lean-verification/>（Rubinstein）、<https://leanprover-community.github.io/blog/posts/riemann-hypothesis/>（Lean FRO 与 Mathlib Initiative，2026-11-21）。
+- 正式论文状态：截至 2026-11-27 未检索到该证明的 arXiv/期刊论文；arXiv:2608.13637（Alpöge & Furman，2026-08）与 Anthropic 研究页 research/riemann-zeta 是更早的部分结果，不是本证明本身。
+
+**（2）本译稿翻译的原书（独立阐释书）**
+
+- 原书：*The Riemann hypothesis and GRH for Dirichlet L-functions — A readable account of the Lean proof in Levent Alpöge's archive*（rh-lean-roadmap，November 2026；本译稿依据 2026-11-25 生成、1545 页的 PDF）。
+- 原书仓库：<https://github.com/rh-lean-roadmap/rh-lean-roadmap>（主页 <https://rh-lean-roadmap.github.io/rh-lean-roadmap/>；Zenodo v44：<https://doi.org/10.5281/zenodo.24562451>），以 **CC BY 4.0** 发布。
+- 该仓库**不是 Alpöge 本人发布**：其 README 明确说明这是个独立阐释项目——数学内容来自 Alpöge 的 Lean 存档，文本与代码由若干 AI 模型（含 Claude）与一位未具名的独立作者写成；"this repository is independent of him and of Anthropic"。
+- 版本差异：上游当前 `docs/book.pdf` 为 1582 页（v44），本译稿依据 1545 页版本，二者可能有少量差异；如有出入以原书与 Lean 存档为准。
 
 ## 四、翻译流程
 
