@@ -12,7 +12,7 @@
 | --- | --- | --- |
 | [`translation/RiemannHypothesis-and-GRH_zh-CN.pdf`](translation/RiemannHypothesis-and-GRH_zh-CN.pdf) | **中文全译排版本**（A4，公式已排版，含书名页、译者说明、目录、正文、Lean 声明索引、参考文献） | 1 182 页 / 23.3 MB |
 | [`translation/RiemannHypothesis-and-GRH_zh-CN.md`](translation/RiemannHypothesis-and-GRH_zh-CN.md) | **中文全译 Markdown 源稿**（LaTeX 公式、定理/引理/证明环境、`[原书 p.N]` 页码锚点） | 约 **90.3 万汉字**（6.5 MB） |
-| [`translation/glossary-zh-CN.md`](translation/glossary-zh-CN.md) | **数学术语与语料库**：英→中核心术语约 400 条 + 各章新增术语汇总约 4 000 条 | 0.14 MB |
+| [`translation/glossary-zh-CN.md`](translation/glossary-zh-CN.md) | **数学术语与语料库**：英→中核心术语约 700 条 + 各章新增术语汇总约 3 300 条（合计约 4 000 条） | 0.14 MB |
 | [`translation/translation-notes.md`](translation/translation-notes.md) | 交付说明：文件清单、翻译流程、体例与已知局限 | — |
 | [`docs/translation-spec.md`](docs/translation-spec.md) | 翻译规范：公式写法、定理环境、Lean 行保留、术语与文风要求 | — |
 | [`docs/PIPELINE.md`](docs/PIPELINE.md) | 翻译与排版流程说明（解析、切分、并行翻译、质检、排版） | — |
